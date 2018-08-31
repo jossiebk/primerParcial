@@ -6,6 +6,8 @@
 <body >
 <h1>Manual de Uso de Bootstrap</h1>
 
+
+
 <nav class="navbar navbar-default">
   <div class="container-fluid">
     <div class="navbar-header">
@@ -69,7 +71,124 @@
 < /div><br/>
 <strong>Nota:</strong>Eliminar los espacios que hay entre cada etiqueta html. 
 Ejemplo: </p>
+<div class="container">
+  <h3>Ejemplo Basico de Navbar</h3>
+  <p>Una barra de navegacion nos brinda un encabezado que sera colocado hasta arriba.
+  
+  A continuación se lograra ver el codigo para su implementación:
+  
+  <h5>< nav class="navbar navbar-default"></h5>
+  <h5>< div class="container-fluid"></h5>
+    <h5>< div class="navbar-header"></h5>
+      <h5>< a class="navbar-brand" href="#">Tutorial Bootstrap</a></h5>
+    <h5>< /div></h5>
+    <h5>< ul class="nav navbar-nav"></h5>
+      <h5>< li class="active"><a href="#">Home</a></li></h5>
+      <h5>< li><a href="#">Pagina 1</a></li></h5>
+      <h5>< li><a href="#">Pagina 2</a></li></h5>
+      <h5>< li><a href="#">Pagina 3</a></li></h5>
+    <h5>< /ul></h5>
+  <h5>< /div></h5>
+<h5>< /nav></h5></p>
+
 </div>
+<div>
+	<h2> Creacion de botones </h2>
+	<h3>Bootstrap nos ofrece diferentes estilos de botones:</h3>
+	<div>
+		<button type="button" class="btn">Basic</button>
+		<button type="button" class="btn btn-default">Default</button>
+		<button type="button" class="btn btn-primary">Primary</button>
+		<button type="button" class="btn btn-success">Success</button>
+		<button type="button" class="btn btn-info">Info</button>
+		<button type="button" class="btn btn-warning">Warning</button>
+		<button type="button" class="btn btn-danger">Danger</button>
+		<button type="button" class="btn btn-link">Link</button>
+	</div>
+	<div>
+		<h6>El siguiente ejemplo muestra el codigo para los diferentes 
+		estilos de botones</h6>
+		<h6> < button type="button" class="btn">Basic< /button> </h6>
+		<h6> < button type="button" class="btn btn-default">Default< /button></h6>
+		<h6>< button type="button" class="btn btn-primary">Primary< /button></h6>
+		<h6>< button type="button" class="btn btn-success">Success< /button></h6>
+		<h6>< button type="button" class="btn btn-info">Info< /button></h6>
+		<h6>< button type="button" class="btn btn-warning">Warning< /button></h6>
+		<h6>< button type="button" class="btn btn-danger">Danger< /button></h6>
+		<h6>< button type="button" class="btn btn-link">Link< /button></h6>
+	</div>
+</div>>
+
+<h2>################## Ejemplo de Formulario ####################</h2>
+
+<h3>CODIGO</h3>
+
+<h5>
+< form><br>
+  < div class="form-group"><br>
+    < label for="exampleInputEmail1">Correo</ label><br>
+    < input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" <br>placeholder="Enter email"><br>
+    < small id="emailHelp" class="form-text text-muted">ponga su correo aca</ small><br>
+  </ div><br>
+  < div class="form-group"><br>
+    < label for="exampleInputPassword1">contraseña</ label><br>
+    < input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password"><br>
+  </ div><br>
+  < div class="form-check"><br>
+    < input type="checkbox" class="form-check-input" id="exampleCheck1"><br>
+    < label class="form-check-label" for="exampleCheck1">mantenerme loggueado</ label><br>
+  </ div><br>
+  < button type="submit" class="btn btn-primary">Submit</ button><br>
+</ form><br>
+</h5>
+<h3>EJEMPLO</h3>
+<form>
+  <div class="form-group">
+    <label for="exampleInputEmail1">Correo</label>
+    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+    <small id="emailHelp" class="form-text text-muted">ponga su correo aca</small>
+  </div>
+  <div class="form-group">
+    <label for="exampleInputPassword1">contraseña</label>
+    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+  </div>
+  <div class="form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">mantenerme loggueado</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+
+<section class="btn-primary">
+	<article class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+			<p>
+					aqui se muestra como se mira una fila divida que ocupa las 12 casillas 
+			</br> que tiene una fila en bootstra´
+		</br>		< div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+						</ div >
+			</p>                        
+	</article>
+</section>          
+
+<section class="main">
+	<article class="btn-success col-xs-8 col-sm-8 col-md-8 col-lg-8">
+			<p>
+				</br>	aqui se muestra como se mira una columna divida que ocupa las 
+			</br>12 casillas que tiene una fila en bootstra´
+		</br>		< div class="col-xs-8 col-sm-8 col-md-8 col-lg-8"></ div >
+			</p>                        
+	</article>
+
+	<aside class="btn-info col-xs-4 col-sm-4 col-md-4 col-lg-4">
+		<p>
+			aqui se muestra como se mira una columna divida que ocupa las 
+		</br>4 casillas que tiene una fila en bootstra´
+	</br>	< div class="col-xs-4 col-sm-4 col-md-4 col-lg-4"></ div >
+	</p> 
+	</aside>
+</section>                
+
+
 
 <div class="container">
   <h2>Tabla de ejemplo</h2>
